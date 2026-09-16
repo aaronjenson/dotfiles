@@ -1,0 +1,24 @@
+[dotfiles]
+"~/.bashrc.d" = { mode = "track" }
+"~/.bashrc/userconfigdir" = { block = '''
+# User specific aliases and functions
+if [ -d ~/.bashrc.d ]; then
+    for rc in ~/.bashrc.d/*; do
+        if [ -f "$rc" ]; then
+            . "$rc"
+        fi
+    done
+fi
+unset rc
+''' }
+"~/.config/mise/config.toml" = { mode = "track" }
+"~/.config/nvim" = { mode = "track" }
+
+[bootstrap.services.mise-history]
+builtin = "history-watch"
+
+[bootstrap.packages]
+"dnf:neovim" = "latest"
+
+[tools]
+neovim = "latest"
