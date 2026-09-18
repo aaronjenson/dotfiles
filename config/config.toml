@@ -19,6 +19,7 @@ builtin = "history-watch"
 
 [bootstrap.packages]
 "dnf:neovim" = "latest"
+"apt:ghostty" = "latest"
 
 [tools]
 neovim = "latest"
