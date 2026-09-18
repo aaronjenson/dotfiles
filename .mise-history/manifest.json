@@ -22,5 +22,15 @@
   ],
   "exclude": [],
   "recipients": [],
-  "permissions": {}
+  "permissions": {
+    "home/.bashrc.d": 509,
+    "home/.config/nvim": 509,
+    "home/.config/nvim/after": 509,
+    "home/.config/nvim/after/ftplugin": 509,
+    "home/.config/nvim/lua": 509,
+    "home/.config/nvim/lua/lsp": 509,
+    "home/.config/nvim/lua/plugins": 509,
+    "home/.config/nvim/lua/telescope": 509,
+    "home/.config/nvim/spell": 509
+  }
 }
