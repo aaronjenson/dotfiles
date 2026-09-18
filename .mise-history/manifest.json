@@ -24,6 +24,7 @@
   "recipients": [],
   "permissions": {
     "home/.bashrc.d": 509,
+    "home/.bashrc.d/01_path": 436,
     "home/.config/nvim": 509,
     "home/.config/nvim/after": 509,
     "home/.config/nvim/after/ftplugin": 509,
