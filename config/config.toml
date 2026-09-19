@@ -24,4 +24,5 @@ builtin = "history-watch"
 "apt:ghostty" = "latest"
 
 [tools]
+gh = "latest"
 neovim = "latest"
