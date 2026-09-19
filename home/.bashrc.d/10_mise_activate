@@ -1,1 +1,1 @@
-eval "$(mise activate bashrc)"
+eval "$(mise activate bash)"

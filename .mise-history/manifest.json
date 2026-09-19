@@ -2,6 +2,30 @@
   "format": 1,
   "enrollment": [
     {
+      "path": "config/conf.d/ubuntu-home-files",
+      "autosave": true,
+      "encrypt": false,
+      "variants": [
+        {
+          "os": [],
+          "profile": "ubuntu-home",
+          "default": false
+        }
+      ]
+    },
+    {
+      "path": "config/conf.d/ubuntu-home.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": [
+        {
+          "os": [],
+          "profile": "ubuntu-home",
+          "default": false
+        }
+      ]
+    },
+    {
       "path": "config/config.toml",
       "autosave": true,
       "encrypt": false,
@@ -22,5 +46,18 @@
   ],
   "exclude": [],
   "recipients": [],
-  "permissions": {}
+  "permissions": {
+    "config@ubuntu-home/conf.d/ubuntu-home-files": 509,
+    "config@ubuntu-home/conf.d/ubuntu-home.toml": 436,
+    "home/.bashrc.d": 509,
+    "home/.bashrc.d/01_path": 436,
+    "home/.config/nvim": 509,
+    "home/.config/nvim/after": 509,
+    "home/.config/nvim/after/ftplugin": 509,
+    "home/.config/nvim/lua": 509,
+    "home/.config/nvim/lua/lsp": 509,
+    "home/.config/nvim/lua/plugins": 509,
+    "home/.config/nvim/lua/telescope": 509,
+    "home/.config/nvim/spell": 509
+  }
 }
