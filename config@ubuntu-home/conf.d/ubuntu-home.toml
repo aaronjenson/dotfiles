@@ -1,0 +1,14 @@
+[bootstrap.directories."/etc/apt/keyrings"]
+mode = "0755"
+phase = "pre-packages"
+
+[bootstrap.files."/etc/apt/keyrings/syncthing-archive-keyring.gpg"]
+source = "./ubuntu-home-files/syncthing-archive-keyring.gpg"
+phase = "pre-packages"
+
+[bootstrap.files."/etc/apt/sources.list.d/syncthing.list"]
+source = "./ubuntu-home-files/syncthing.list"
+phase = "pre-packages"
+
+[bootstrap.packages]
+"apt:syncthing" = "latest"
