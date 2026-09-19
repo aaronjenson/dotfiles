@@ -2,6 +2,18 @@
   "format": 1,
   "enrollment": [
     {
+      "path": "config/conf.d/ubuntu-home-files",
+      "autosave": true,
+      "encrypt": false,
+      "variants": [
+        {
+          "os": [],
+          "profile": "ubuntu-home",
+          "default": false
+        }
+      ]
+    },
+    {
       "path": "config/conf.d/ubuntu-home.toml",
       "autosave": true,
       "encrypt": false,
@@ -35,6 +47,7 @@
   "exclude": [],
   "recipients": [],
   "permissions": {
+    "config@ubuntu-home/conf.d/ubuntu-home-files": 509,
     "config@ubuntu-home/conf.d/ubuntu-home.toml": 436,
     "home/.bashrc.d": 509,
     "home/.bashrc.d/01_path": 436,

@@ -11,6 +11,7 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 ''' }
+"~/.config/mise/conf.d/ubuntu-home-files" = { mode = "track", variants = [{ profile = "ubuntu-home" }] }
 "~/.config/mise/conf.d/ubuntu-home.toml" = { mode = "track", variants = [{ profile = "ubuntu-home" }] }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/nvim" = { mode = "track" }
