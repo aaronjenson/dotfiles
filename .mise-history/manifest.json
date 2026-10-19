@@ -2,6 +2,15 @@
   "format": 1,
   "enrollment": [
     {
+      "path": "config",
+      "autosave": true,
+      "encrypt": false,
+      "variants": [],
+      "exclude": [
+        "*local*"
+      ]
+    },
+    {
       "path": "config/conf.d/ubuntu-home-files",
       "autosave": true,
       "encrypt": false,
