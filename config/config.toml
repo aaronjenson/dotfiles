@@ -21,9 +21,7 @@ builtin = "history-watch"
 
 [bootstrap.packages]
 "dnf:neovim" = "latest"
-"dnf:keepassxc" = "latest"
 "apt:ghostty" = "latest"
-"apt:keepassxc" = "latest"
 
 [tools]
 gh = "latest"
