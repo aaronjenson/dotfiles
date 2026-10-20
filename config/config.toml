@@ -15,7 +15,6 @@ unset rc
 "~/.config/mise/conf.d/ubuntu-home.toml" = { mode = "track", variants = [{ profile = "ubuntu-home" }] }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/nvim" = { mode = "track" }
-"~/.config/mise" = { mode = "track", exclude = ["*local*"] }
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
