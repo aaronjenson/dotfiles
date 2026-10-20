@@ -1,0 +1,4 @@
+[bootstrap.packages]
+"dnf:keepassxc" = "latest"
+"dnf:syncthing" = "latest"
+"apt:keepassxc" = "latest"
