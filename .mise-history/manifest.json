@@ -26,6 +26,12 @@
       ]
     },
     {
+      "path": "config/config.games.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "config/config.personal.toml",
       "autosave": true,
       "encrypt": false,

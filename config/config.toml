@@ -13,6 +13,7 @@ unset rc
 ''' }
 "~/.config/mise/conf.d/ubuntu-home-files" = { mode = "track", variants = [{ profile = "ubuntu-home" }] }
 "~/.config/mise/conf.d/ubuntu-home.toml" = { mode = "track", variants = [{ profile = "ubuntu-home" }] }
+"~/.config/mise/config.games.toml" = { mode = "track" }
 "~/.config/mise/config.personal.toml" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/nvim" = { mode = "track" }
