@@ -3,3 +3,4 @@
 "dnf:syncthing" = "latest"
 "apt:keepassxc" = "latest"
 "flatpak:com.orcaslicer.OrcaSlicer" = "latest"
+"dnf:discord" = "latest"
