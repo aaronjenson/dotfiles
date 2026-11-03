@@ -27,4 +27,5 @@ builtin = "history-watch"
 
 [tools]
 gh = "latest"
+lazygit = "latest"
 neovim = "latest"
