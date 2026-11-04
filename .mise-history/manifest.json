@@ -50,6 +50,12 @@
       "variants": []
     },
     {
+      "path": "home/.bashrc-work.d",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.bashrc.d",
       "autosave": true,
       "encrypt": false,
