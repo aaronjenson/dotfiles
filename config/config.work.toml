@@ -1,0 +1,8 @@
+[tools]
+k9s = "latest"
+kind = "latest"
+node = "26"
+ruby = "latest"
+
+[bootstrap.packages]
+"apt:vault" = "latest"
