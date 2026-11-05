@@ -1,0 +1,22 @@
+[dotfiles]
+"~/.bashrc-work.d" = { mode = "track" }
+"~/.bashrc/workuserconfigdir" = { block = '''
+# User specific aliases and functions
+if [ -d ~/.bashrc-work.d ]; then
+    for rc in ~/.bashrc-work.d/*; do
+        if [ -f "$rc" ]; then
+            . "$rc"
+        fi
+    done
+fi
+unset rc
+''' }
+
+[tools]
+k9s = "latest"
+kind = "latest"
+node = "26"
+ruby = "latest"
+
+[bootstrap.packages]
+"apt:vault" = "latest"

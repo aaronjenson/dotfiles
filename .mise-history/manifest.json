@@ -44,6 +44,18 @@
       "variants": []
     },
     {
+      "path": "config/config.work.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.bashrc-work.d",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.bashrc.d",
       "autosave": true,
       "encrypt": false,
@@ -63,6 +75,7 @@
     "config@ubuntu-home/conf.d/ubuntu-home.toml": 436,
     "home/.bashrc.d": 509,
     "home/.bashrc.d/01_path": 436,
+    "home/.config": 448,
     "home/.config/nvim": 509,
     "home/.config/nvim/after": 509,
     "home/.config/nvim/after/ftplugin": 509,
