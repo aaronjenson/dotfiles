@@ -15,6 +15,7 @@ unset rc
 "~/.config/mise/conf.d/ubuntu-home.toml" = { mode = "track", variants = [{ profile = "ubuntu-home" }] }
 "~/.config/mise/config.games.toml" = { mode = "track" }
 "~/.config/mise/config.personal.toml" = { mode = "track" }
+"~/.config/mise/config.sheetmusic.toml" = { mode = "track" }
 "~/.config/mise/config.surface.toml" = { mode = "track" }
 "~/.config/mise/config.work.toml" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }

@@ -1,0 +1,8 @@
+[bootstrap.packages]
+"dnf:syncthing" = "latest"
+
+[bootstrap.hooks.post-packages]
+run = [
+  "systemctl --user enable --now syncthing.service",
+  "{{ config_root }}/.config/mise/scripts/sheetmusic-syncthing-setup.sh"
+]
