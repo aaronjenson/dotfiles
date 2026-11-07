@@ -56,6 +56,12 @@
       "variants": []
     },
     {
+      "path": "config/scripts",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.bashrc-work.d",
       "autosave": true,
       "encrypt": false,
