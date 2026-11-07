@@ -1,0 +1,10 @@
+[bootstrap.hooks.pre-packages]
+run = "(dnf repolist | grep linux-surface) || sudo dnf config-manager addrepo --from-repofile=https://pkg.surfacelinux.com/fedora/linux-surface.repo"
+
+[bootstrap.packages]
+"dnf:kernel-surface" = "latest"
+"dnf:iptsd" = "latest"
+"dnf:libwacom-surface" = "latest"
+
+[bootstrap.hooks.post-packages]
+run = "systemctl is-enabled linux-surface-default-watchdog.path || sudo systemctl enable --now linux-surface-default-watchdog.path"
