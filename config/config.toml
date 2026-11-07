@@ -13,6 +13,9 @@ unset rc
 ''' }
 "~/.config/mise/conf.d/ubuntu-home-files" = { mode = "track", variants = [{ profile = "ubuntu-home" }] }
 "~/.config/mise/conf.d/ubuntu-home.toml" = { mode = "track", variants = [{ profile = "ubuntu-home" }] }
+"~/.config/mise/config.games.toml" = { mode = "track" }
+"~/.config/mise/config.personal.toml" = { mode = "track" }
+"~/.config/mise/config.work.toml" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/nvim" = { mode = "track" }
 
@@ -22,8 +25,16 @@ builtin = "history-watch"
 [bootstrap.packages]
 "dnf:neovim" = "latest"
 "apt:ghostty" = "latest"
-"apt:keepassxc" = "latest"
+"apt:ripgrep" = "latest"
 
 [tools]
 gh = "latest"
+lazygit = "latest"
 neovim = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = ["ruby", "node"]
+
+[settings.github]
+credential_command = 'gh auth token --hostname "$MISE_CREDENTIAL_HOST"'
+
