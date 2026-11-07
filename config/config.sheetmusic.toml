@@ -1,5 +1,9 @@
+[bootstrap.hooks.pre-packages]
+run = "flatpak remote-add --system --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo"
+
 [bootstrap.packages]
 "dnf:syncthing" = "latest"
+"flatpak:io.github.mrgilfy.leggio" = "latest"
 
 [bootstrap.hooks.post-packages]
 run = [
