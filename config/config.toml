@@ -18,6 +18,7 @@ unset rc
 "~/.config/mise/config.surface.toml" = { mode = "track" }
 "~/.config/mise/config.work.toml" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
+"~/.config/mise/scripts" = { mode = "track" }
 "~/.config/nvim" = { mode = "track" }
 
 [bootstrap.services.mise-history]
