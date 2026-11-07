@@ -1,5 +1,6 @@
 [bootstrap.packages]
 "dnf:syncthing" = "latest"
+"flatpak:io.github.mrgilfy.leggio" = "latest"
 
 [bootstrap.hooks.post-packages]
 run = [
