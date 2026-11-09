@@ -38,6 +38,18 @@
       "variants": []
     },
     {
+      "path": "config/config.sheetmusic.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "config/config.surface.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "config/config.toml",
       "autosave": true,
       "encrypt": false,
@@ -45,6 +57,12 @@
     },
     {
       "path": "config/config.work.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "config/scripts",
       "autosave": true,
       "encrypt": false,
       "variants": []
